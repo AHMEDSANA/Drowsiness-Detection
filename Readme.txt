@@ -9,3 +9,5 @@ model I used is the max size reduced and efficient model which I tried to develo
 There are many face-detection libraries, but I went with this was because it was more accurate and 
 gave better results as compared to other libraries such as harsh cascade even thought it might be 
 more computationally complex or consuming.
+You can Futher learn about his project by reading the Pdf file given in the rep.
+Step by step information is also provided in the coded file.
