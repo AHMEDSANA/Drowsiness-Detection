@@ -1,4 +1,10 @@
 # Drowsiness-Detection
+<p align="center" width="100%">
+    <img width="33%" src=![image](https://user-images.githubusercontent.com/73955220/210215415-7d0219fc-bf69-45ce-8067-f1ac2be806a7.png)> 
+</p>
+  
+  
+  
 In this project we will train our model on open and close eyes dataset then use that with face recognition library to check if the driver is sleeping or  not.
 This project will work in two phases in first phase we will train a model on eyes if open/closed 
 using different models. After achieving good accuracy and low loss we will give it to another code 
