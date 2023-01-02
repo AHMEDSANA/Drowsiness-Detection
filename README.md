@@ -1,7 +1,4 @@
 # Drowsiness-Detection
-<p align="center" width="100%">
-    <img width="33%" src=![image](https://user-images.githubusercontent.com/73955220/210215415-7d0219fc-bf69-45ce-8067-f1ac2be806a7.png)> 
-</p>
   
   
   
