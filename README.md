@@ -95,6 +95,8 @@ After this we will upload the data on our drive that we will mount on the Google
 
 # Face Detection and Predinction of Drowsiness IRL
 
+To run the real time detection you will have to run it on ur personal pc and use ide's like Spyder,Jupyter etc as colab doesnot allow access to your camera.
+
 To run the file for detection of drowsiness we will have to run:
 
 - Install Face Detection library
