@@ -53,7 +53,7 @@ After this we will upload the data on our drive that we will mount on the Google
 - Preprocess our data (Rescale, zoom, flip, shear)
 - Use an image generator to generate our data in class mode.
 
-**Step 5**** : My Model**
+**Step 5 : My Model**
 
 - My Neural Network Uses 13 layers.
 - Four Convolution layers
