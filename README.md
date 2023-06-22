@@ -72,8 +72,9 @@ After this we will upload the data on our drive that we will mount on the Google
 
 **Output:**
 
-![image](https://user-images.githubusercontent.com/73955220/210314080-80ca9241-5302-46d3-94db-e68c0645db2f.png)
-
+<p align="center">
+<img width="" height="" src="https://user-images.githubusercontent.com/73955220/210314080-80ca9241-5302-46d3-94db-e68c0645db2f.png">
+</p>
 
 **Step 8 : Predicting/Validating**
 
@@ -83,7 +84,9 @@ After this we will upload the data on our drive that we will mount on the Google
 
 **Output:**
 
-![image](https://user-images.githubusercontent.com/73955220/210316496-b42f5ad5-3073-4c20-a155-d44bd0b35d33.png)
+<p align="center">
+<img width="" height="" src="https://user-images.githubusercontent.com/73955220/210316496-b42f5ad5-3073-4c20-a155-d44bd0b35d33.png">
+</p>
 
 
 **Step 9: Final (testing our model)**
@@ -121,16 +124,22 @@ To run the file for detection of drowsiness we will have to run:
 
 **Output :**
 
-![image](https://user-images.githubusercontent.com/73955220/210318546-4310aaca-ad5b-4956-b0ca-3e7495cb2f04.png)
+<p align="center">
+<img width="" height="" src="https://user-images.githubusercontent.com/73955220/210318546-4310aaca-ad5b-4956-b0ca-3e7495cb2f04.png">
+</p>
 
 
 **Implementation on Controller:**
 
 We can run our code and implement the model on Raspberry Pie as the total storage memory of our model is 18 mb and that of face library is 100 mb and the total space memory required for our model is 150 mb.
 
-The Ram required to run a three second video to detect the output is
+The Ram required to run a three second video to detect the output is:
 
-| **CNN Layers** | **Memory** | **Parameters** |
+
+<div align="center">
+
+
+| CNN Layers | Memory | Parameters |
 | --- | --- | --- |
 | Input Layer | 128x128x3=49152 | 0 |
 | Conv2D | 126x126x32=508032 | 896 |
@@ -147,8 +156,10 @@ The Ram required to run a three second video to detect the output is
 | Dense | 1x1x256=256 | 33024 |
 | Dense | 1x1x1=1 | 257 |
 | RAM in Bytes | 1170273x4=4681092 |
-
 **RAM in Mega Bytes = 4.681092 MB** 
+
+</div>
+
 
 As we can see from above calculations the total RAM required for running the model is 4MB for forward and one frame. Extra procedures will also require some memory usage which cannot be calculated.
 
